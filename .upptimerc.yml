@@ -26,9 +26,8 @@ status-website:
   logoUrl: https://cdn.backupmode.xyz/b99b6ce4ba55adb006afa3c1509bd5d4.png
   favicon: https://cdn.backupmode.xyz/b99b6ce4ba55adb006afa3c1509bd5d4.png
   name: BackupMode 狀態
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-
+  introTitle: "**Backup Mode**"
+  introMessage: 不知道你們有沒有遇過群被炸的問題呢？想恢復之前的資料但奈何可能需要付費解鎖或沒辦法紀錄訊息? 那麼 Backup Mode 是你的最佳首選！他完美的記錄了所有文字及語音頻道,身份組,Emoji到訊息都幫你備份了下來。
 workflowSchedule:
   graphs: "0 0 * * *"
   responseTime: "0 23 * * *"
