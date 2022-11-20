@@ -5,6 +5,12 @@ repo: uptime # The name of this repository
 sites:
   - name: Website
     url: https://backupmode.xyz/
+  - name: Dashboard
+    url: https://dash.backupmode.xyz/
+  - name: Store
+    url: https://store.backupmode.xyz/
+  - name: Docs
+    url: https://docs.backupmode.xyz/
   - name: Main Bot
     check: "tcp-ping"
     url: hk-coop-1.node.hypernology.com
