@@ -3,8 +3,18 @@ owner: Backup-Mode # Your GitHub organization or username, where this repository
 repo: uptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
+  - name: 主要機器人
+    check: "tcp-ping"
+    url: hk-coop-1.node.hypernology.com
+    port: 50000
+  - name: 系統機器人
+    check: "tcp-ping"
+    url: hk-coop-1.node.hypernology.com
+    port: 50002
+  - name: 網站系統
+    check: "tcp-ping"
+    url: hk-coop-1.node.hypernology.com
+    port: 50001
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
