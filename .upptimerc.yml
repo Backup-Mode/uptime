@@ -57,7 +57,7 @@ i18n:
   incidentScheduled: 已排程
   incidentReport: "事件 #$NUMBER 報告 →"
   activeIncidentSummary: 開始於 $DATE 共有 $POSTS 則貼文
-  incidentTitle: 事件 $NUMBER 詳情
+  incidentTitle: $NUMBER 事件詳情
   incidentDetails: 事件詳情
   incidentFixed: 已處理
   incidentOngoing: 處理中
