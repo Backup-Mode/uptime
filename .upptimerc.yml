@@ -28,6 +28,7 @@ status-website:
   name: BackupMode 狀態
   introTitle: "**Backup Mode**"
   introMessage: 不知道你們有沒有遇過群被炸的問題呢？想恢復之前的資料但奈何可能需要付費解鎖或沒辦法紀錄訊息? 那麼 Backup Mode 是你的最佳首選！他完美的記錄了所有文字及語音頻道,身份組,Emoji到訊息都幫你備份了下來。
+
 workflowSchedule:
   graphs: "0 0 * * *"
   responseTime: "0 23 * * *"
@@ -39,3 +40,4 @@ workflowSchedule:
 
 i18n:
   allSystemsOperational: 系統全數正常
+  liveStatus: 即時狀態
