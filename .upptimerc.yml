@@ -45,6 +45,15 @@ i18n:
   overallUptimeTitle: 平均在線時間
   averageResponseTime: "平均回應時間: $TIMEms"
   averageResponseTimeTitle: 平均回應時間
+  sevelDayResponseTime: 7-天 回應時間
+  responseTimeMs: 回應時間 (ms)
+  up: 在線
+  down: 離線
+  degraded: 降級
+  ms: ms
+  loading: 載入中
+  status: "狀態"
+  history: "歷史"
   pastScheduledMaintenance: 過去計劃維護
   scheduledMaintenance: 計劃維護
   scheduledMaintenanceSummaryStarted: 開始於 $DATE 共 $DURATION 分鐘
@@ -55,7 +64,7 @@ i18n:
   durationMin: $DURATION 分鐘
   incidentCompleted: 已完成
   incidentScheduled: 已排程
-  incidentReport: "事件 #$NUMBER 報告 →"
+  incidentReport: "#$NUMBER 事件報告 →"
   activeIncidentSummary: 開始於 $DATE 共有 $POSTS 則貼文
   incidentTitle: $NUMBER 事件詳情
   incidentDetails: 事件詳情
@@ -68,3 +77,4 @@ i18n:
   incidentBack: ← 返回至所有事件
   pastIncidents: 過去事件
   pastIncidentsResolved: 處理共 $MINUTES 分鐘，共有 $POSTS 則貼文
+  footer: Copyright © 2022-2022 Backup Mode. All Rights Reserved.
