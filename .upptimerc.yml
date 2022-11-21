@@ -13,15 +13,15 @@ sites:
     url: https://docs.backupmode.xyz/
   - name: Main Bot
     check: "tcp-ping"
-    url: hk-coop-1.node.hypernology.com
+    url: $BOT_URL
     port: 50000
   - name: System Bot
     check: "tcp-ping"
-    url: hk-coop-1.node.hypernology.com
+    url: $BOT_URL
     port: 50002
   - name: Dashboard System
     check: "tcp-ping"
-    url: hk-coop-1.node.hypernology.com
+    url: $BOT_URL
     port: 50001
 
 status-website:
